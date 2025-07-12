@@ -1,0 +1,20 @@
+{
+    "name": "marking-system/backend",
+    "description": "Course Mark Management System Backend",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.5",
+        "php-di/php-di": "^6.4",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public"
+    }
+} 
